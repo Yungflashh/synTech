@@ -230,6 +230,10 @@ button:hover{
     text-align: center;
 }
 
+.menu{
+    display: none;
+}
+
 @media (max-width: 800px) {
 
     body{
@@ -239,14 +243,20 @@ button:hover{
     }
     .navigationBar{
         display: none;
-
     }
+
     .header{
         position: fixed;
-       
-        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+        /* border: 4px solid red; */
+        padding: 10px;
         width: 100%;
 
+    }
+    .menu{
+        display: block;
+        margin-right: 30px;
     }
 
 
@@ -254,6 +264,12 @@ button:hover{
         font-size: 50px;
         margin-bottom: 60px;
 
+    }
+    
+    #myH2{
+        font-size: 40px;
+        align-self: flex-start;
+        margin-left: 0px;
     }
  
 
