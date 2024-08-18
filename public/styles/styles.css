@@ -258,7 +258,7 @@ button:hover{
  
 
     .sectionImageOneTwo{
-        border: 3px solid yellow;
+        /* border: 3px solid yellow; */
         padding: 0px;
         width: 100%;
         /* display: none; */
