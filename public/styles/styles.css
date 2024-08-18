@@ -132,6 +132,7 @@ button:hover{
 
 .sectionImageOneTwo{
     margin-top: 120px;
+
 }
 
 .sections h3{
@@ -232,8 +233,9 @@ button:hover{
 @media (max-width: 800px) {
 
     body{
-        width: 100%;
+        /* width: 100%; */
         overflow-x: hidden;
+        
     }
     .navigationBar{
         display: none;
@@ -241,13 +243,32 @@ button:hover{
     }
     .header{
         position: fixed;
+       
+        padding: 0px;
+        width: 100%;
+
     }
+
 
     .hero-section h2{
         font-size: 50px;
         margin-bottom: 60px;
 
     }
+ 
+
+    .sectionImageOneTwo{
+        border: 3px solid yellow;
+        padding: 0px;
+        width: 100%;
+        /* display: none; */
+    }
+
+    .sectionImageOneTwo img{
+        width: 100%;
+    }
+
+
     .hero-section p{
         font-size: 18px;
         margin-bottom: 40px;
@@ -287,6 +308,12 @@ button:hover{
         margin-left: 0px;
         
     }
+
+    
+#image1{
+    margin-right: 0px;
+}
+
 
     .section-text p{
         font-size: 14px;
