@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up for synTech</title>
+    <link rel="stylesheet" href="../public/styles/signUp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="bodyContainer">
+        <div class="imageContainer">
+            <a href="../index.html"><img src="../public/styles/asset/Group 6.svg" alt="returnBtn" id="returnBtn"></a>
+        </div>
+    
+
+        <div class="formContainer">
+            <h3 id="myH3"> Sign Up</h3>
+            <form action="./signIn.html" method="post">
+                <label class="label" for="">Username</label> <br>
+                <input type="text" placeholder="Enter your username" autofocus name="username" required> <br>
+               
+                <label class="label" for="">E-mail Address</label> <br>
+                <input type="text" placeholder="Enter your E-mail address" autocomplete="email" name="email" required> <br>
+               
+                <label class="label" for="">Password</label> <br>
+                <input type="password" placeholder="Enter your password" name="password" required> <br>
+                
+                <label class="label" for="">Confirm password</label> <br>
+               
+                <input type="password" placeholder="Re-enter your password" name="confirmedPassword" required>
+        
+                <input id="submitBtn" type="submit" value="Sign Up">
+
+                <div id="or-div">
+                    <p id="or-Text">or</p>
+                    </div>
+            </form>
+
+            <form class="google" action="#" method="GET">
+                 <button id="google"  type="submit"> <img src="../public/styles/asset/icons8-google.svg"> Sign up with Google</button>
+            </form>
+        </div>
+  
+    </div>
+</body>
+</html>
